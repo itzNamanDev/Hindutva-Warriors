@@ -4,7 +4,7 @@ async function getWebhookUrl() {
 }
 
 function getIPAddress() {
-  // Use a fetch request to get the IP address
+  // Use a fetch request to get the IP addressees 
   fetch('https://api.ipify.org?format=json')
     .then(response => response.json())
     .then(async data => {
